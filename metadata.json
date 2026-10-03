@@ -1,0 +1,6 @@
+{
+  "name": "Mật Mã An Toàn - Quyết Định Tương Lai",
+  "description": "Phòng điều khiển quyết định 90 phút dành cho học sinh Lớp 8 rèn luyện kỹ năng tự bảo vệ, nhận diện nguy cơ và phản xạ an toàn chủ động.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

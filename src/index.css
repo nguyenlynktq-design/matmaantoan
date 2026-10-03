@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+@layer base {
+  body, p, span, button, div, li, strong, em, textarea, input, label {
+    font-family: "Times New Roman", Times, Georgia, serif;
+  }
+}
+
+.font-tech-header {
+  font-family: 'Montserrat', "Times New Roman", sans-serif;
+}
+
+.font-mono-tag {
+  font-family: 'Orbitron', monospace;
+}
+
+/* Command Center Aesthetic */
+.gameshow-main-card {
+  background: radial-gradient(135% 125% at 50% 12%, #0c1c38 0%, #060e20 65%, #030814 100%);
+  border: 2px solid rgba(0, 180, 255, 0.45);
+  box-shadow: 0 0 60px rgba(0, 140, 255, 0.22), inset 0 0 35px rgba(0, 140, 255, 0.08);
+  border-radius: 28px;
+}
+
+.title-gold-neon {
+  color: #FFDE59;
+  text-shadow: 0 0 18px rgba(255, 214, 0, 0.8), 0 0 40px rgba(255, 170, 0, 0.55), 0 0 65px rgba(255, 130, 0, 0.35);
+  letter-spacing: 0.04em;
+}
+
+.theme-capsule-cyan {
+  background: rgba(4, 28, 58, 0.92);
+  border: 2px solid #00D1FF;
+  box-shadow: 0 0 22px rgba(0, 209, 255, 0.45), inset 0 0 12px rgba(0, 209, 255, 0.2);
+}
+
+.star-ribbon-tag {
+  background: rgba(6, 32, 68, 0.85);
+  border: 1.5px solid rgba(0, 209, 255, 0.5);
+  box-shadow: 0 0 16px rgba(0, 209, 255, 0.3);
+}
+
+.btn-action-gold {
+  background: linear-gradient(180deg, #FFB800 0%, #F59E0B 45%, #D97706 100%);
+  box-shadow: 0 0 35px rgba(245, 158, 11, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  border: 1px solid #FFE082;
+  transition: all 0.2s cubic-bezier(0.2, 0, 0.2, 1);
+}
+.btn-action-gold:hover {
+  background: linear-gradient(180deg, #FFC72C 0%, #FBBA15 45%, #E58700 100%);
+  box-shadow: 0 0 50px rgba(245, 158, 11, 0.95);
+  transform: translateY(-2px);
+}
+
+.content-subbox-dark {
+  background: #040B18;
+  border: 1.5px solid rgba(13, 40, 85, 0.9);
+  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.card-luxury-interactive {
+  background: linear-gradient(135deg, rgba(13, 34, 72, 0.9) 0%, rgba(6, 17, 38, 0.96) 100%);
+  border: 1.5px solid rgba(0, 209, 255, 0.35);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  transition: all 0.22s ease-in-out;
+}
+.card-luxury-interactive:hover {
+  border-color: #00F0FF;
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.45);
+  transform: translateY(-2px);
+}
+
+/* 5-Step Golden Flow */
+.step-gold-card {
+  background: #040e22;
+  border: 1.8px solid #FFD700;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.22), inset 0 0 15px rgba(255, 215, 0, 0.06);
+}
+.step-red-circle {
+  background: radial-gradient(circle at 35% 35%, #ff3b30 0%, #d32f2f 65%, #9a0007 100%);
+  box-shadow: 0 0 18px rgba(239, 68, 68, 0.6);
+}
+.red-urgent-banner {
+  background: linear-gradient(90deg, #991b1b 0%, #b91c1c 50%, #991b1b 100%);
+  border: 1.5px solid #ef4444;
+  box-shadow: 0 0 25px rgba(239, 68, 68, 0.45);
+}
+
+/* Drag & Drop helpers */
+.drag-card {
+  cursor: grab;
+  user-select: none;
+}
+.drag-card:active {
+  cursor: grabbing;
+}
+.card-dragging {
+  opacity: 0.4;
+  transform: scale(0.96);
+  border-color: #00F0FF !important;
+  box-shadow: 0 0 30px rgba(0, 240, 255, 0.85) !important;
+}
+.drop-zone-active {
+  border-color: #00F0FF !important;
+  background: radial-gradient(120% 120% at 50% 0%, rgba(0, 240, 255, 0.24) 0%, rgba(4, 25, 55, 0.95) 100%) !important;
+  box-shadow: 0 0 35px rgba(0, 240, 255, 0.5) !important;
+}
+.drop-zone-active-spec {
+  border-color: #FFB800 !important;
+  background: radial-gradient(120% 120% at 50% 0%, rgba(255, 184, 0, 0.24) 0%, rgba(45, 25, 8, 0.95) 100%) !important;
+  box-shadow: 0 0 35px rgba(255, 184, 0, 0.5) !important;
+}
+.badge-accuracy-success {
+  background: linear-gradient(90deg, rgba(6, 78, 59, 0.95) 0%, rgba(4, 120, 87, 0.95) 50%, rgba(6, 78, 59, 0.95) 100%);
+  border: 2px solid #34D399;
+  box-shadow: 0 0 35px rgba(52, 211, 153, 0.65), inset 0 0 20px rgba(52, 211, 153, 0.3);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #040b18;
+}
+::-webkit-scrollbar-thumb {
+  background: #142c5c;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00d1ff;
+}

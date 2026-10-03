@@ -1,0 +1,30 @@
+{
+  "intro": {
+    "path": "/audio/intro.wav",
+    "text": "Hôm nay, nhiệm vụ của các em không phải là đoán tên một loại ma túy. Nhiệm vụ khó hơn nhiều. Khi một nguy cơ xuất hiện nhưng không mang biển báo nguy hiểm, liệu các em có đủ bình tĩnh để nhận ra và đưa ra quyết định an toàn? Phòng điều khiển đang nhận được sáu tín hiệu. Hãy cùng xử lý từng tín hiệu để thu thập các mảnh lời giải."
+  },
+  "signal1": {
+    "path": "/audio/signal1.wav",
+    "text": "Tín hiệu số 1. Món quà miễn phí cổng trường. Hãy phân biệt rõ đâu là dữ kiện thực tế và đâu là điều chưa thể kết luận."
+  },
+  "signal1_correct": {
+    "path": "/audio/signal1_correct.wav",
+    "text": "Phân loại hoặc nhận diện chính xác! Em đã phân biệt rất sắc bén giữa dữ kiện thực tế và điều chưa thể kết luận. Bây giờ, hãy đưa ra quyết định an toàn."
+  },
+  "signal1_caution": {
+    "path": "/audio/signal1_caution.wav",
+    "text": "Chưa hoàn toàn chính xác. Hãy nhớ rằng: những gì quan sát trực tiếp là dữ kiện; còn quy kết người lạ là tội phạm hoặc chai nước chứa ma túy khi chưa kiểm nghiệm chỉ là suy đoán."
+  },
+  "signal2": {
+    "path": "/audio/signal2.wav",
+    "text": "Tín hiệu số 2. Máy đo áp lực đồng trang lứa. Hãy nhận diện các câu gây sức ép, tự lập lời từ chối ngắn và xác định nơi sẽ rời đến."
+  },
+  "signal2_refusal_ready": {
+    "path": "/audio/signal2_refusal_ready.wav",
+    "text": "Đã nhận diện đủ 4 câu gây sức ép. Hãy tạo lời từ chối ngắn, dứt khoát và chỉ rõ nơi em sẽ rời đến."
+  },
+  "signal2_correct": {
+    "path": "/audio/signal2_correct.wav",
+    "text": "Phân loại hoặc nhận diện chính xác! Lời từ chối dứt khoát kết hợp rời ngay đến nơi an toàn là lá chắn tự vệ hữu hiệu nhất."
+  }
+}
